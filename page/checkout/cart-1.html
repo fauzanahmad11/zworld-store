@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../../assets/bootstrap/css/all.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600i&display=swap"
+        rel="stylesheet">
+    <!-- My Css -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <title>Zan World</title>
+</head>
+
+<body>
+    <!-- Start cart head -->
+    <div class="container my-5">
+        <div class="row cart-head mb-3">
+            <div class="col text-center ">
+                <h3 class="text-capitalize">You Cart</h3>
+                <p>Promo pakaian selama lebaran</p>
+            </div>
+        </div>
+    </div>
+    <!-- #End cart head -->
+
+    <!-- Start Breadcrumb -->
+    <div class="container">
+        <nav>
+            <ol class="breadcrumb bg-transparent cart-breadcrumb pl-0">
+                <li class="breadcrumb-item"><a href="../product/single-product.html">Single Product</a></li>
+                <li class="breadcrumb-item active">Cart</li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- #End Breadcrumb -->
+
+    <!-- Start cart body -->
+    <section class="cart">
+        <form action="" method="post">
+
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="items-head">
+                            <h4 class="text-capitalize">your items</h4>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col-4 col-sm-2">
+                                <div class="items-thumb">
+                                    <img src="../../assets/img/products/thumbs/product-5/p.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8 col-sm-4 p-0">
+                                <div class="items-title">
+                                    <h5 class="text-capitalize">tunic buterfly</h5>
+                                    <p class="text-uppercase">idr. 100.000.00</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-4 align-self-center">
+                                <div class="product-qtt">
+                                    <button type="button" name="btn-min" class="btn btn-sm bg-EAEAEF">
+                                        <i class="fas fa-minus-circle"></i>
+                                    </button>
+                                    <span class="mx-2 qtt-val">20</span>
+                                    <button type="button" name="btn-plus" class="btn btn-sm bg-1BC9AC">
+                                        <i class="fas fa-plus-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-1 col-sm-2 p-0 align-self-center">
+                                <a type="button" href="#" class="btn btn-sm bg-D62235 text-white">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class="row my-4">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-1 ">
+                            <div class="items-thumb">
+                                <img src="../../assets/img/products/thumbs/product-5/p.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-5 col-md-4 col-lg-2  align-self-center">
+                            <div class="items-title">
+                                <h5 class="text-capitalize">tunic buterfly</h5>
+                                <p class="text-uppercase">idr. 100.000.00</p>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-4 col-md-3 col-lg-2  align-self-center">
+                            <div class="product-qtt">
+                                <form action="" method="post">
+                                    <button type="button" name="btn-min" class="btn btn-sm bg-EAEAEF">
+                                        <i class="fas fa-minus-circle"></i>
+                                    </button>
+                                    <span class="mx-2 qtt-val">20</span>
+                                    <button type="button" name="btn-plus" class="btn btn-sm bg-1BC9AC">
+                                        <i class="fas fa-plus-circle"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-1 p-0 col-sm-1 col-md-1 col-lg-1  align-self-center">
+                            <a type="button" href="#" class="btn btn-sm bg-D62235 text-white">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                        </div>
+                    </div> -->
+                        <div class="row cart-form">
+                            <div class="col-12">
+                                <div class="items-head">
+                                    <h4 class="text-capitalize">your items</h4>
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">Address</label>
+                                    <input type="text" class="form-control" name="address" id="address"
+                                        aria-describedby="helpId" placeholder="Alamat Lengkap">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address2">Address II</label>
+                                    <input type="text" class="form-control" name="address2" id="address2"
+                                        aria-describedby="helpId" placeholder="Alamat Lengkap">
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <select class="form-control" name="city" id="city">
+                                        <option>Select City</option>
+                                        <option value="New York">New York</option>
+                                        <option value="New York">New York</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <select class="form-control" name="country" id="country">
+                                        <option>Select Country</option>
+                                        <option value="New York">New York</option>
+                                        <option value="New York">New York</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 price-information mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Informasi Biaya</h5>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="items-title">
+                                            <h6 class="m-0 text-capitalize">Jeans papp</h6>
+                                            <small class="text-capitalize">3 items</small>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <div class="items-price align-self-center">
+                                            <h6 class="m-0 text-uppercase">idr 500.000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="items-title">
+                                            <h6 class="m-0 text-capitalize">Jeans papp</h6>
+                                            <small class="text-capitalize">3 items</small>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <div class="items-price align-self-center">
+                                            <h6 class="m-0 text-uppercase">idr 500.000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="items-title">
+                                            <h6 class="m-0 text-capitalize">Jeans papp</h6>
+                                            <small class="text-capitalize">3 items</small>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <div class="items-price align-self-center">
+                                            <h6 class="m-0 text-uppercase">idr 500.000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="items-title">
+                                            <h6 class="m-0 text-capitalize">Jeans papp</h6>
+                                            <small class="text-capitalize">3 items</small>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <div class="items-price align-self-center">
+                                            <h6 class="m-0 text-uppercase">idr 500.000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="items-title">
+                                            <h6 class="m-0 text-capitalize">Eid Promo</h6>
+                                            <small class="text-capitalize">Discount 25%</small>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <div class="items-price disc-price align-self-center">
+                                            <h6 class="m-0 text-uppercase">idr 100.000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="items-title sum-title">
+                                            <h6 class="m-0 text-capitalize">Total harga</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <div class="items-price sum-price align-self-center">
+                                            <h6 class="m-0 text-uppercase">idr 500.000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center text-center mt-2">
+                            <div class="col pr-0">
+                                <a href="../../index.html" type="submit" name="cancel"
+                                    class="btn btn-block text-capitalize">cancel</a>
+                            </div>
+                            <div class="col">
+                                <button type="button" name="checkout" class="btn btn-block text-capitalize"
+                                    data-toggle="modal" data-target="#checkoutModal">Checkout</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- #End cart body -->
+
+    <!-- Modal -->
+    <div class="modal fade modal-checkout-succes" id="checkoutModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border-0">
+                <div class="modal-body text-center py-5">
+                    <form action="../../index.html" method="post">
+                        <img src="../../assets/img/icon/icon-checkout-succes.png" alt="" width="130px">
+                        <h3 class="text-capitalize mt-5">checkout berhasil</h3>
+                        <p class="mt-3">Pesanan anda akan segera kami kirim. <br> Terima kasih telah berbelanja di
+                            Zworld Store </p>
+                        <button type="submit" name="home" class="btn btn-sm btn-secondary mt-3">Home</button>
+                        <br>
+                        <!-- <a href="../../index.html">tempo</a> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Footer -->
+    <footer class="border-top py-5">
+        <div class="container">
+            <div class="row justify-content-sm-between">
+                <div class="col-12 col-sm-4 text-center text-sm-left py-3 py-sm-0">
+                    <a href="../../index.html" title="Home" class="text-decoration-none">
+                        <img src="../../assets/img/icon/logo2.3.png" alt="ZanWorld Logo">
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 align-self-sm-center text-center text-sm-right py-3 py-sm-0">
+                    <a target="_blank" href="http://www.instagram.com/zworld.id" title="ZanWorld Twitter"
+                        class="text-decoration-none">
+                        <img src="../../assets/img/icon/002-twitter.png" alt="ZanWorld Twitter">
+                    </a>
+                    <a target="_blank" href="http://www.instagram.com/zworld.id" title="ZanWorld Instagram"
+                        class="text-decoration-none">
+                        <img src="../../assets/img/icon/003-instagram.png" alt="ZanWorld Instagram">
+                    </a>
+                    <a target="_blank" href="http://www.instagram.com/zworld.id" title="ZanWorld Facebook"
+                        class="text-decoration-none">
+                        <img src="../../assets/img/icon/001-facebook.png" alt="ZanWorld Facebook">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-6 cl-B7B7B7">
+                    <p>All rights reserved by <span class="cl-171717">Zanworld</span> Copyright 2020</p>
+                </div>
+                <div class="col-6">
+                    <nav class="nav justify-content-end">
+                        <a class="nav-link" href="#">JOBS</a>
+                        <a class="nav-link active" href="#">DEVELOPER</a>
+                        <a class="nav-link" href="#">TERMS</a>
+                        <a class="nav-link pr-lg-0" href="#">PRIVACY POLICY</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- #End Footer -->
+
+    <!-- Start BackToTop -->
+    <section class="back-top fixed-bottom">
+        <div class="row text-right p-2 p-sm-4 justify-content-end">
+            <div class="col-3 col-sm-2">
+                <button class="cl-1BC9AC p-0" id="btn-scroll-up"><i class="fas fa-arrow-alt-circle-up"></i>
+                    </bu>
+            </div>
+        </div>
+    </section>
+    <!-- #End BackToTop -->
+
+    <!-- Start Designers -->
+    <!-- #End Designers -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../assets/bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/bootstrap/js/popper.min.js"></script>
+    <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../assets/bootstrap/js/all.js"></script>
+    <script src="../../assets/js/myscript.js"></script>
+</body>
+
+</html>
